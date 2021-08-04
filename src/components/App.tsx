@@ -1,12 +1,11 @@
 import React from 'react';
+import HomepageHeader from './HomepageHeader';
 import '../styles/Index.scss';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        Test
-      </header>
+        <HomepageHeader />
     </div>
   );
 }
