@@ -1,6 +1,6 @@
 import React from 'react';
 import HomepageHeader from './HomepageHeader';
-import '../styles/Index.scss';
+import '../styles/index.scss';
 
 const App: React.FC = () => {
   return (
