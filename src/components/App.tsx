@@ -1,13 +1,14 @@
-import React from 'react';
-import HomepageHeader from './HomepageHeader';
+import React from "react";
+import HomepageHeader from "./HomepageHeader";
+import ContentSearchList from "./ContentSearchList";
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      {/* <img src="./images/adoption.jpg"/> */}
-        <HomepageHeader />
-    </div>
+    <>
+      <HomepageHeader />
+      <ContentSearchList />
+    </>
   );
-}
+};
 
 export default App;
