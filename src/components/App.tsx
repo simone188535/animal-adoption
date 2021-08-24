@@ -1,12 +1,12 @@
 import React from "react";
 import HomepageHeader from "./HomepageHeader";
-import ContentSearchList from "./ContentSearchList";
+import PreferenceSelection from "./PreferenceSelection";
 
 const App: React.FC = () => {
   return (
     <>
       <HomepageHeader />
-      <ContentSearchList />
+      <PreferenceSelection />
     </>
   );
 };
