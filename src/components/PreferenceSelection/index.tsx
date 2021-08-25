@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import axios from "axios";
 import "./contentsearchlist.scss";
 
 interface ContentSearchListProps {
   currentSearchItem: string;
 }
 
-const ContentSearchList: React.FC<ContentSearchListProps> = () => {
+const ContentSearchList: React.FC<ContentSearchListProps> = ({ currentSearchItem }) => {
   const [searchResult, setSearchResult] = useState([]);
 
   return (
